@@ -10,7 +10,7 @@
               "name": "1.0.0",
               "ernPlatformVersion": "1000.0.0",
               "isReleased": false,
-              "binary": null,
+              "binary": "489917df5dd2f27e0bae0c1276bb70c58d834e17",
               "yarnlock": null,
               "nativeDeps": [],
               "miniApps": {

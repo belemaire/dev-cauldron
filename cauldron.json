@@ -1,0 +1,8 @@
+{
+  "nativeApps": [
+    {
+      "name": "testbinary",
+      "platforms": []
+    }
+  ]
+}

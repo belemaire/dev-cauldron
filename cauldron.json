@@ -10,7 +10,7 @@
               "name": "1.0.0",
               "ernPlatformVersion": "1000.0.0",
               "isReleased": false,
-              "binary": "e0a10cac1e689b70338b2c2b75dadd4e6a62e2d4",
+              "binary": null,
               "yarnlock": "fd108d23a5e570842d72bc18219c4498333977dc",
               "nativeDeps": [
                 "react-native@0.48.3",

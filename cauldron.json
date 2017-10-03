@@ -1,4 +1,10 @@
 {
+  "config": {
+    "binaryStore": {
+      "provider" : "ern-binary-store",
+      "url": "http://localhost:3000"
+    }
+  },
   "nativeApps": [
     {
       "name": "testbinary",

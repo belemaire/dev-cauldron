@@ -1,15 +1,15 @@
 {
   "config": {
     "binaryStore": {
-      "provider" : "ern-binary-store",
+      "provider": "ern-binary-store",
       "url": "http://172.28.83.47:3000"
     },
-   "manifest": {
-    "override": {
-      "url": "https://github.com/belemaire/electrode-native-benoit-manifest.git",
-      "type": "partial"
-     }
-   }
+    "manifest": {
+      "override": {
+        "url": "https://github.com/belemaire/electrode-native-benoit-manifest.git",
+        "type": "partial"
+      }
+    }
   },
   "nativeApps": [
     {
@@ -17,29 +17,7 @@
       "platforms": [
         {
           "name": "android",
-          "versions": [
-            {
-              "name": "1.0.0",
-              "ernPlatformVersion": "1000.0.0",
-              "isReleased": false,
-              "binary": null,
-              "yarnlock": "fd108d23a5e570842d72bc18219c4498333977dc",
-              "nativeDeps": [
-                "react-native@0.48.3",
-                "react-native-electrode-bridge@1.5.9",
-                "react-native-ernmovie-api@0.0.9",
-                "react-native-ernnavigation-api@0.0.3"
-              ],
-              "miniApps": {
-                "container": [
-                  "movielistminiapp@0.0.5",
-                  "moviedetailsminiapp@0.0.3"
-                ],
-                "codePush": []
-              },
-              "containerVersion": "1.0.0"
-            }
-          ],
+          "versions": [],
           "config": {
             "containerGenerator": {
               "containerVersion": "1.0.0"

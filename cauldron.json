@@ -2,7 +2,7 @@
   "config": {
     "binaryStore": {
       "provider": "ern-binary-store",
-      "url": "http://172.28.83.47:3000"
+      "url": "http://localhost:3000"
     },
     "manifest": {
       "override": {

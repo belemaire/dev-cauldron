@@ -12,19 +12,5 @@
     }
   },
   "nativeApps": [
-    {
-      "name": "testbinary",
-      "platforms": [
-        {
-          "name": "android",
-          "versions": [],
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.0"
-            }
-          }
-        }
-      ]
-    }
   ]
 }

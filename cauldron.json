@@ -67,7 +67,8 @@
                   "moviedetailsminiapp@0.0.6"
                 ],
                 "codePush": []
-              }
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }

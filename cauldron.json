@@ -14,7 +14,12 @@
   "nativeApps": [
     {
       "name": "testbinary",
-      "platforms": []
+      "platforms": [
+        {
+          "name": "android",
+          "versions": []
+        }
+      ]
     }
   ]
 }

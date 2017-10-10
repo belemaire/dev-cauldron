@@ -12,5 +12,9 @@
     }
   },
   "nativeApps": [
+    {
+      "name": "testbinary",
+      "platforms": []
+    }
   ]
 }

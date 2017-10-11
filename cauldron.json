@@ -38,6 +38,45 @@
                 "codePush": []
               },
               "containerVersion": "1.0.0"
+            },
+            {
+              "name": "17.18.0",
+              "ernPlatformVersion": "0.7.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnlock": null,
+              "nativeDeps": [
+                "@walmart/react-native-walmartanalytics-api@0.19.1",
+                "@walmart/react-native-walmartcookie-api@0.18.3",
+                "@walmart/react-native-walmartnavigation-api@0.18.2",
+                "@walmart/react-native-walmartuserauth-api@0.18.4",
+                "@walmart/react-native-walmartcheckout-api@0.0.3",
+                "@walmart/react-native-payment-api@0.0.6",
+                "react-native@0.42.0",
+                "react-native-code-push@1.17.1-beta",
+                "react-native-stack-tracer@0.1.1",
+                "@walmart/react-native-walmartstate-api@0.32.2",
+                "react-native-electrode-bridge@1.5.9",
+                "@walmart/react-native-walmartheader-api@0.0.6",
+                "@walmart/react-native-easyreturns-api@1.5.0"
+              ],
+              "miniApps": {
+                "container": [
+                  "@walmart/react-native-cart@4.0.25",
+                  "@walmart/react-native-thankyou@2.0.27",
+                  "@walmart/RNEasyReturns@0.0.56",
+                  "@walmart/react-native-checkout@0.0.57"
+                ],
+                "codePush": [
+                  [
+                    "@walmart/react-native-checkout@0.0.60",
+                    "@walmart/react-native-cart@4.0.25",
+                    "@walmart/react-native-thankyou@2.0.27",
+                    "@walmart/RNEasyReturns@0.0.56"
+                  ]
+                ]
+              },
+              "containerVersion": "1.16.34"
             }
           ],
           "config": {

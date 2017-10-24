@@ -83,7 +83,7 @@
               "ernPlatformVersion": "1000.0.0",
               "isReleased": false,
               "binary": null,
-              "yarnlock": null,
+              "yarnlock": "1726bce811d991f859e5e2943a16e061f7a8df23",
               "nativeDeps": [
                 "@walmart/react-native-walmartanalytics-api@0.19.1",
                 "@walmart/react-native-walmartcookie-api@0.18.3",
@@ -101,19 +101,16 @@
               ],
               "miniApps": {
                 "container": [
-                  "@walmart/react-native-cart@4.0.25",
-                  "@walmart/react-native-thankyou@2.0.27",
-                  "@walmart/RNEasyReturns@0.0.56",
                   "@walmart/react-native-checkout@0.0.57"
                 ],
                 "codePush": []
               },
-              "containerVersion": "1.16.34"
+              "containerVersion": "1.16.35"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.16.34"
+              "containerVersion": "1.16.35"
             }
           }
         },

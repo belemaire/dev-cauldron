@@ -6,7 +6,7 @@
     },
     "manifest": {
       "override": {
-        "url": "https://github.com/belemaire/electrode-native-benoit-manifest.git",
+        "url": "https://gecgithub01.walmart.com/react-native/ern-walmart-manifest",
         "type": "partial"
       }
     }

@@ -120,7 +120,12 @@
     },
     {
       "name": "mytestapp",
-      "platforms": []
+      "platforms": [
+        {
+          "name": "android",
+          "versions": []
+        }
+      ]
     }
   ]
 }

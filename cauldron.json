@@ -224,14 +224,25 @@
               "ernPlatformVersion": "1000.0.0",
               "isReleased": false,
               "binary": null,
-              "yarnlock": null,
-              "nativeDeps": [],
+              "yarnlock": "78e43be1509d04e77908312ec2fa8123ae0cfb47",
+              "nativeDeps": [
+                "react-native@0.50.1",
+                "react-native-code-push@5.1.3-beta"
+              ],
               "miniApps": {
-                "container": [],
+                "container": [
+                  "code-push-test-miniapp@0.0.1"
+                ],
                 "codePush": []
-              }
+              },
+              "containerVersion": "1.0.0"
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.0"
+            }
+          }
         }
       ]
     }

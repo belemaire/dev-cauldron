@@ -226,6 +226,21 @@
                     "miniapps": [
                       "code-push-test-miniapp@0.0.4"
                     ]
+                  },
+                  {
+                    "metadata": {
+                      "deploymentName": "Production",
+                      "isMandatory": false,
+                      "appVersion": "1.0",
+                      "size": 0,
+                      "releaseMethod": "UNKNOW",
+                      "label": "UNKNOW",
+                      "releasedBy": "UNKNOW",
+                      "rollout": "100"
+                    },
+                    "miniapps": [
+                      "code-push-test-miniapp@0.0.5"
+                    ]
                   }
                 ]
               },

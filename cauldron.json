@@ -212,9 +212,6 @@
                   "code-push-test-miniapp@0.0.1"
                 ],
                 "codePush": [
-                  [
-                    "code-push-test-miniapp@0.0.2"
-                  ]
                 ]
               },
               "containerVersion": "1.0.0"

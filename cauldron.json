@@ -256,6 +256,14 @@
                     "miniapps": [
                       "code-push-test-miniapp@0.0.6"
                     ]
+                  },
+                  {
+                    "metadata": {
+                      "deploymentName": "Production"
+                    },
+                    "miniapps": [
+                      "code-push-test-miniapp@0.0.7"
+                    ]
                   }
                 ]
               },

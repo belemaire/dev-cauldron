@@ -202,7 +202,8 @@
               "ernPlatformVersion": "1000.0.0",
               "isReleased": false,
               "binary": null,
-              "yarnlock": "2110ae042d2bf337973c7b60615ba19fe7fb120c",
+              "yarnLocks": {
+              },
               "nativeDeps": [
                 "react-native@0.50.1",
                 "react-native-code-push@5.1.3-beta"

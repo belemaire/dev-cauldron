@@ -202,8 +202,7 @@
               "ernPlatformVersion": "1000.0.0",
               "isReleased": false,
               "binary": null,
-              "yarnLocks": {
-              },
+              "yarnLocks": {},
               "nativeDeps": [
                 "react-native@0.50.1",
                 "react-native-code-push@5.1.3-beta"
@@ -279,6 +278,21 @@
                     },
                     "miniapps": [
                       "code-push-test-miniapp@0.0.8"
+                    ]
+                  },
+                  {
+                    "metadata": {
+                      "deploymentName": "Production",
+                      "isMandatory": false,
+                      "appVersion": "1.0",
+                      "size": 522938,
+                      "releaseMethod": "Upload",
+                      "label": "v12",
+                      "releasedBy": "lemaireb@gmail.com",
+                      "rollout": "100"
+                    },
+                    "miniapps": [
+                      "code-push-test-miniapp@0.0.9"
                     ]
                   }
                 ]

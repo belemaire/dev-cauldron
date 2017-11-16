@@ -204,7 +204,8 @@
               "binary": null,
               "yarnLocks": {
                 "container": "2110ae042d2bf337973c7b60615ba19fe7fb120c",
-                "Production": "91bf4eff61586d71fe5d52e31a2cfabcbb31e33e"
+                "Production": "91bf4eff61586d71fe5d52e31a2cfabcbb31e33e",
+                "Staging": "8fc3c1c44bd2100ecba6da90ada3aef914007b4c"
               },
               "nativeDeps": [
                 "react-native@0.50.1",

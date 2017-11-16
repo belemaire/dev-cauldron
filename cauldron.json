@@ -9,6 +9,9 @@
         "url": "https://github.com/belemaire/electrode-native-benoit-manifest.git",
         "type": "partial"
       }
+    },
+    "codePush": {
+      "entriesLimit": 2
     }
   },
   "nativeApps": [

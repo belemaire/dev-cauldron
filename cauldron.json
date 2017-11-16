@@ -357,6 +357,21 @@
                     "miniapps": [
                       "code-push-test-miniapp@0.0.13"
                     ]
+                  },
+                  {
+                    "metadata": {
+                      "deploymentName": "Staging",
+                      "isMandatory": false,
+                      "appVersion": "1.0",
+                      "size": 522941,
+                      "releaseMethod": "Upload",
+                      "label": "v4",
+                      "releasedBy": "lemaireb@gmail.com",
+                      "rollout": "100"
+                    },
+                    "miniapps": [
+                      "code-push-test-miniapp@0.0.15"
+                    ]
                   }
                 ]
               },

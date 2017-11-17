@@ -74,7 +74,8 @@
                   "code-push-test-miniapp@0.0.1"
                 ]
               },
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.0",
+              "yarnlock": "08f32516fb94019df5f508037ae7fc402aed3aee"
             }
           ]
         }

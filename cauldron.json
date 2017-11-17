@@ -199,6 +199,20 @@
       "platforms": [
         {
           "name": "android",
+           "config": {
+            "codePush": {
+              "deployments": [
+                { 
+                  "name": "QA",
+                  "versionSuffix": "-qa-debug"
+                }, {
+                  "name": "Development",
+                  "versionSuffix": "-dev-debug"
+                }, {
+                  "name": "Production"
+                }
+              ]
+          },
           "versions": [
             {
               "name": "1.0.0",

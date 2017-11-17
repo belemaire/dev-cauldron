@@ -21,7 +21,7 @@
 				"name": "android",
 				"config": {
 					"codePush": {
-						"deployments": [{
+					 [{
 							"name": "QA",
 							"versionSuffix": "-qa-debug"
 						}, {
@@ -29,9 +29,10 @@
 							"versionSuffix": "-dev-debug"
 						}, {
 							"name": "Production"
-						}]
-					},
-					"versions": [{
+						}]	"deployments":
+					}
+				},
+				"versions": [{
 						"name": "1.0.0",
 						"ernPlatformVersion": "1000.0.0",
 						"isReleased": false,
@@ -58,7 +59,7 @@
 							"containerVersion": "1.0.0"
 						}
 					}
-				}
+				
 			}]
 		}
 	]

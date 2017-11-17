@@ -1,61 +1,84 @@
 {
-	"config": {
-		"binaryStore": {
-			"provider": "ern-binary-store",
-			"url": "http://localhost:3000"
-		},
-		"manifest": {
-			"override": {
-				"url": "https://github.com/belemaire/electrode-native-benoit-manifest.git",
-				"type": "partial"
-			}
-		},
-		"codePush": {
-			"entriesLimit": 2
-		}
-	},
-	"nativeApps": [
-		{
-			"name": "CodePushTest",
-			"platforms": [{
-				"name": "android",
-				"config": {
-					"codePush": [
-					        {
-							"name": "QA",
-							"versionSuffix": "-qa-debug"
-						}, {
-							"name": "Development",
-							"versionSuffix": "-dev-debug"
-						}, {
-							"name": "Production"
-						}
-					 ]
-					},
-				"versions": [{
-						"name": "1.0.0",
-						"ernPlatformVersion": "1000.0.0",
-						"isReleased": false,
-						"binary": null,
-						"yarnLocks": {
-							"container": "2110ae042d2bf337973c7b60615ba19fe7fb120c",
-							"Production": "91bf4eff61586d71fe5d52e31a2cfabcbb31e33e",
-							"Staging": "8fc3c1c44bd2100ecba6da90ada3aef914007b4c"
-						},
-						"nativeDeps": [
-							"react-native@0.50.1",
-							"react-native-code-push@5.1.3-beta"
-						],
-						"codePush": {},
-						"miniApps": {
-							"container": [
-								"code-push-test-miniapp@0.0.1"
-							]
-						},
-						"containerVersion": "1.0.0"
-					}]
-				
-			}]
-		}
-	]
+  "config": {
+    "binaryStore": {
+      "provider": "ern-binary-store",
+      "url": "http://localhost:3000"
+    },
+    "manifest": {
+      "override": {
+        "url": "https://github.com/belemaire/electrode-native-benoit-manifest.git",
+        "type": "partial"
+      }
+    },
+    "codePush": {
+      "entriesLimit": 2
+    }
+  },
+  "nativeApps": [
+    {
+      "name": "CodePushTest",
+      "platforms": [
+        {
+          "name": "android",
+          "config": {
+            "codePush": [
+              {
+                "name": "QA",
+                "versionSuffix": "-qa-debug"
+              },
+              {
+                "name": "Development",
+                "versionSuffix": "-dev-debug"
+              },
+              {
+                "name": "Production"
+              }
+            ]
+          },
+          "versions": [
+            {
+              "name": "1.0.0",
+              "ernPlatformVersion": "1000.0.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnLocks": {
+                "container": "2110ae042d2bf337973c7b60615ba19fe7fb120c",
+                "Production": "91bf4eff61586d71fe5d52e31a2cfabcbb31e33e",
+                "Staging": "8fc3c1c44bd2100ecba6da90ada3aef914007b4c"
+              },
+              "nativeDeps": [
+                "react-native@0.50.1",
+                "react-native-code-push@5.1.3-beta"
+              ],
+              "codePush": {
+                "Staging": [
+                  {
+                    "metadata": {
+                      "deploymentName": "Staging",
+                      "isMandatory": false,
+                      "appVersion": "1.0",
+                      "size": 522946,
+                      "releaseMethod": "Upload",
+                      "label": "v7",
+                      "releasedBy": "lemaireb@gmail.com",
+                      "rollout": "100"
+                    },
+                    "miniapps": [
+                      "code-push-test-miniapp@0.0.19"
+                    ]
+                  }
+                ]
+              },
+              "miniApps": {
+                "container": [
+                  "code-push-test-miniapp@0.0.1"
+                ]
+              },
+              "containerVersion": "1.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

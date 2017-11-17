@@ -29,7 +29,7 @@
 							"versionSuffix": "-dev-debug"
 						}, {
 							"name": "Production"
-						}]	"deployments":
+						}]
 					}
 				},
 				"versions": [{

@@ -20,8 +20,8 @@
 			"platforms": [{
 				"name": "android",
 				"config": {
-					"codePush": {
-					 [{
+					"codePush": [
+					        {
 							"name": "QA",
 							"versionSuffix": "-qa-debug"
 						}, {
@@ -29,9 +29,9 @@
 							"versionSuffix": "-dev-debug"
 						}, {
 							"name": "Production"
-						}]
-					}
-				},
+						}
+					 ]
+					},
 				"versions": [{
 						"name": "1.0.0",
 						"ernPlatformVersion": "1000.0.0",

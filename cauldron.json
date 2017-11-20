@@ -43,7 +43,7 @@
               "binary": null,
               "yarnLocks": {
                 "container": "2110ae042d2bf337973c7b60615ba19fe7fb120c",
-                "Production": "91bf4eff61586d71fe5d52e31a2cfabcbb31e33e",
+                "Production": "8fc3c1c44bd2100ecba6da90ada3aef914007b4c",
                 "Staging": "8fc3c1c44bd2100ecba6da90ada3aef914007b4c"
               },
               "nativeDeps": [
@@ -76,7 +76,7 @@
                       "appVersion": "1.0.0",
                       "size": 522946,
                       "releaseMethod": "Promote",
-                      "label": "v26",
+                      "label": "v27",
                       "releasedBy": "lemaireb@gmail.com",
                       "rollout": 100
                     },
@@ -91,7 +91,7 @@
                       "appVersion": "1.0.0",
                       "size": 522946,
                       "releaseMethod": "Promote",
-                      "label": "v27",
+                      "label": "v28",
                       "releasedBy": "lemaireb@gmail.com",
                       "rollout": 100
                     },

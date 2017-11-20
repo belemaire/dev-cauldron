@@ -87,13 +87,14 @@
                   {
                     "metadata": {
                       "deploymentName": "Production",
-                      "isMandatory": false,
+                      "isMandatory": true,
                       "appVersion": "1.0.0",
                       "size": 522946,
                       "releaseMethod": "Promote",
                       "label": "v29",
                       "releasedBy": "lemaireb@gmail.com",
-                      "rollout": 100
+                      "rollout": 100,
+                      "isDisabled": true
                     },
                     "miniapps": [
                       "code-push-test-miniapp@0.0.19"

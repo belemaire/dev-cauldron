@@ -23,7 +23,7 @@
           "config": {
             "codePush": {
               "appName": "CodePushTestMiniApp",
-              "versionModifier": [
+              "versionModifiers": [
                 {
                   "deploymentName": "QA",
                   "versionSuffix": "$1-qa-debug"

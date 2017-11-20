@@ -26,11 +26,11 @@
               "versionModifiers": [
                 {
                   "deploymentName": "QA",
-                  "versionSuffix": "$1-qa-debug"
+                  "modifier": "$1-qa-debug"
                 },
                 {
                   "deploymentName": "Development",
-                  "versionSuffix": "$1-dev-debug"
+                  "modifier": "$1-dev-debug"
                 }
               ]
             }

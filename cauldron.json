@@ -21,19 +21,19 @@
         {
           "name": "android",
           "config": {
-            "codePush": [
-              {
-                "name": "QA",
-                "versionSuffix": "-qa-debug"
-              },
-              {
-                "name": "Development",
-                "versionSuffix": "-dev-debug"
-              },
-              {
-                "name": "Production"
-              }
-            ]
+            "codePush": {
+              "appName": "CodePushTestMiniApp",
+              "versionModifier": [
+                {
+                  "deploymentName": "QA",
+                  "versionSuffix": "$1-qa-debug"
+                },
+                {
+                  "deploymentName": "Development",
+                  "versionSuffix": "$1-dev-debug"
+                }
+              ]
+            }
           },
           "versions": [
             {

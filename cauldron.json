@@ -83,6 +83,21 @@
                     "miniapps": [
                       "code-push-test-miniapp@0.0.19"
                     ]
+                  },
+                  {
+                    "metadata": {
+                      "deploymentName": "Production",
+                      "isMandatory": false,
+                      "appVersion": "1.0.0",
+                      "size": 522946,
+                      "releaseMethod": "Promote",
+                      "label": "v25",
+                      "releasedBy": "lemaireb@gmail.com",
+                      "rollout": 100
+                    },
+                    "miniapps": [
+                      "code-push-test-miniapp@0.0.19"
+                    ]
                   }
                 ]
               },

@@ -1,4 +1,5 @@
 {
+  "minErnVersion": "0.10.0",
   "config": {
     "binaryStore": {
       "provider": "ern-binary-store",

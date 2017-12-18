@@ -114,6 +114,28 @@
           ]
         }
       ]
+    },
+    {
+      "name": "testapp",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "ernPlatformVersion": "1000.0.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnLocks": {},
+              "nativeDeps": [],
+              "miniApps": {
+                "container": []
+              },
+              "codePush": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

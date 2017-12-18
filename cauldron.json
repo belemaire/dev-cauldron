@@ -130,7 +130,6 @@
                 "container": "2789bd41d968b0d725ef136ec81382096ea7bc64"
               },
               "nativeDeps": [
-                "react-native-ernmovie-api@0.0.9",
                 "react-native-ernnavigation-api@0.0.4",
                 "react-native@0.51.0",
                 "react-native-electrode-bridge@1.5.9"
@@ -142,12 +141,12 @@
                 ]
               },
               "codePush": {},
-              "containerVersion": "1.0.1"
+              "containerVersion": "1.0.2"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.1"
+              "containerVersion": "1.0.2"
             }
           }
         }

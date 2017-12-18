@@ -127,7 +127,7 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "bcc9d3e6c73264d666c14eb2e8f5e86365fd96c2"
+                "container": "2789bd41d968b0d725ef136ec81382096ea7bc64"
               },
               "nativeDeps": [
                 "react-native-ernmovie-api@0.0.9",
@@ -137,16 +137,17 @@
               ],
               "miniApps": {
                 "container": [
-                  "movielistminiapp@0.0.9"
+                  "movielistminiapp@0.0.9",
+                  "moviedetailsminiapp@0.0.8"
                 ]
               },
               "codePush": {},
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.1"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.1"
             }
           }
         }

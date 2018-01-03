@@ -219,7 +219,7 @@
           "name": "ios",
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.0",
+              "containerVersion": "1.0.1",
               "publishers": [
                 {
                   "name": "github",
@@ -234,12 +234,23 @@
               "ernPlatformVersion": "1000.0.0",
               "isReleased": false,
               "binary": null,
-              "yarnLocks": {},
-              "nativeDeps": [],
-              "miniApps": {
-                "container": []
+              "yarnLocks": {
+                "container": "18c6ad7c214f2182b3ce6739bd05c4620bcae884"
               },
-              "codePush": {}
+              "nativeDeps": [
+                "react-native-ernmovie-api@0.0.9",
+                "react-native-ernnavigation-api@0.0.4",
+                "react-native@0.51.0",
+                "react-native-electrode-bridge@1.5.9"
+              ],
+              "miniApps": {
+                "container": [
+                  "movielistminiapp@0.0.9",
+                  "moviedetailsminiapp@0.0.8"
+                ]
+              },
+              "codePush": {},
+              "containerVersion": "1.0.1"
             }
           ]
         }

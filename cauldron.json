@@ -184,7 +184,7 @@
               "publishers": [
                 {
                   "name": "github",
-                  "url": "git@github.com:belemaire/test-container-android.git"
+                  "url": "https://github.com/belemaire/test-container-android.git"
                 }
               ]
             }

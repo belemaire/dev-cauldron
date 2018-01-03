@@ -5,12 +5,6 @@
       "provider": "ern-binary-store",
       "url": "http://localhost:3000"
     },
-    "manifest": {
-      "override": {
-        "url": "https://github.com/belemaire/electrode-native-benoit-manifest.git",
-        "type": "partial"
-      }
-    },
     "codePush": {
       "entriesLimit": 2
     },
@@ -184,6 +178,16 @@
       "platforms": [
         {
           "name": "android",
+          "config": {
+          "containerGenerator": {
+              "containerVersion": "1.0.0",
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "git@github.com:belemaire/test-container-android.git"
+                }
+              ]
+            }},
           "versions": [
             {
               "name": "1.0.0",
@@ -201,6 +205,17 @@
         },
         {
           "name": "ios",
+          "config": {
+          "containerGenerator": {
+              "containerVersion": "1.0.0",
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "git@github.com:belemaire/test-container-ios.git"
+                }
+              ]
+            }
+          },
           "versions": [
             {
               "name": "1.0.0",

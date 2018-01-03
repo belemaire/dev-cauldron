@@ -179,34 +179,46 @@
         {
           "name": "android",
           "config": {
-          "containerGenerator": {
-              "containerVersion": "1.0.0",
+            "containerGenerator": {
+              "containerVersion": "1.0.1",
               "publishers": [
                 {
                   "name": "github",
                   "url": "git@github.com:belemaire/test-container-android.git"
                 }
               ]
-            }},
+            }
+          },
           "versions": [
             {
               "name": "1.0.0",
               "ernPlatformVersion": "1000.0.0",
               "isReleased": false,
               "binary": null,
-              "yarnLocks": {},
-              "nativeDeps": [],
-              "miniApps": {
-                "container": []
+              "yarnLocks": {
+                "container": "18c6ad7c214f2182b3ce6739bd05c4620bcae884"
               },
-              "codePush": {}
+              "nativeDeps": [
+                "react-native-ernmovie-api@0.0.9",
+                "react-native-ernnavigation-api@0.0.4",
+                "react-native@0.51.0",
+                "react-native-electrode-bridge@1.5.9"
+              ],
+              "miniApps": {
+                "container": [
+                  "movielistminiapp@0.0.9",
+                  "moviedetailsminiapp@0.0.8"
+                ]
+              },
+              "codePush": {},
+              "containerVersion": "1.0.1"
             }
           ]
         },
         {
           "name": "ios",
           "config": {
-          "containerGenerator": {
+            "containerGenerator": {
               "containerVersion": "1.0.0",
               "publishers": [
                 {

@@ -223,7 +223,7 @@
               "publishers": [
                 {
                   "name": "github",
-                  "url": "https://github.com/belemaire/test-container-android.git"
+                  "url": "https://github.com/belemaire/test-container-ios.git"
                 }
               ]
             }

@@ -219,7 +219,7 @@
           "name": "ios",
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.3",
+              "containerVersion": "1.0.4",
               "publishers": [
                 {
                   "name": "github",
@@ -235,7 +235,7 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "18c6ad7c214f2182b3ce6739bd05c4620bcae884"
+                "container": "04361b404cacda64921cc07fc503f0c16b5ccb91"
               },
               "nativeDeps": [
                 "react-native-ernmovie-api@0.0.9",
@@ -250,7 +250,7 @@
                 ]
               },
               "codePush": {},
-              "containerVersion": "1.0.3"
+              "containerVersion": "1.0.4"
             }
           ]
         }

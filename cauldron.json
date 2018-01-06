@@ -180,7 +180,7 @@
           "name": "android",
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.5",
+              "containerVersion": "1.0.6",
               "publishers": [
                 {
                   "name": "github",
@@ -211,7 +211,7 @@
                 ]
               },
               "codePush": {},
-              "containerVersion": "1.0.5"
+              "containerVersion": "1.0.6"
             }
           ]
         },

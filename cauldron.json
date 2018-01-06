@@ -219,7 +219,7 @@
           "name": "ios",
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.4",
+              "containerVersion": "1.0.5",
               "publishers": [
                 {
                   "name": "github",
@@ -250,7 +250,7 @@
                 ]
               },
               "codePush": {},
-              "containerVersion": "1.0.4"
+              "containerVersion": "1.0.5"
             }
           ]
         }

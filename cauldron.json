@@ -7,10 +7,6 @@
     },
     "codePush": {
       "entriesLimit": 2
-    },
-    "yarnLocks": {
-      "enabledForContainer": false,
-      "enabledForCodePush": false
     }
   },
   "nativeApps": [

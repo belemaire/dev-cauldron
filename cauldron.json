@@ -41,7 +41,13 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.0",
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "git@github.com:belemaire/system-test-container-ios.git"
+                }
+              ]
             }
           }
         }

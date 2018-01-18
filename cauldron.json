@@ -52,6 +52,42 @@
               ]
             }
           }
+        }, {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "ernPlatformVersion": "1000.0.0",
+              "isReleased": false,
+              "binary": null,
+              "nativeDeps": [
+                "react-native-code-push@5.1.3-beta",
+                "react-native-ernmovie-api@0.0.9",
+                "react-native-ernnavigation-api@0.0.4",
+                "react-native@0.51.0",
+                "react-native-electrode-bridge@1.5.9"
+              ],
+              "miniApps": {
+                "container": [
+                  "movielistminiapp@0.0.9",
+                  "moviedetailsminiapp@0.0.8"
+                ]
+              },
+              "codePush": {},
+              "containerVersion": "1.0.0"
+            }
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.0",
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "https://github.com/belemaire/system-test-container-android.git"
+                }
+              ]
+            }
+          }
         }
       ]
     }

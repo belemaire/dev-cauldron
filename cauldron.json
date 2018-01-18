@@ -38,12 +38,12 @@
                 ]
               },
               "codePush": {},
-              "containerVersion": "1.0.1"
+              "containerVersion": "1.0.2"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.1",
+              "containerVersion": "1.0.2",
               "publishers": [
                 {
                   "name": "github",

@@ -45,7 +45,7 @@
               "publishers": [
                 {
                   "name": "github",
-                  "url": "git@github.com:belemaire/system-test-container-ios.git"
+                  "url": "https://github.com/belemaire/system-test-container-ios.git"
                 }
               ]
             }

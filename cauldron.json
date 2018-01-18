@@ -75,7 +75,7 @@
                 ]
               },
               "codePush": {},
-              "containerVersion": "1.0.1",
+              "containerVersion": "1.0.2",
               "yarnLocks": {
                 "container": "c2d5f4d5e5786f4eaa253e20b617bdc61dfd0a02"
               }
@@ -83,7 +83,7 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.1",
+              "containerVersion": "1.0.2",
               "publishers": [
                 {
                   "name": "github",

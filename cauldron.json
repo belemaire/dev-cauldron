@@ -61,15 +61,15 @@
               "ernPlatformVersion": "1000.0.0",
               "isReleased": false,
               "binary": null,
-              "nativeDeps": [
-                "react-native-code-push@5.1.3-beta",
-                "react-native-ernmovie-api@0.0.9",
-                "react-native-ernnavigation-api@0.0.4",
-                "react-native@0.51.0",
-                "react-native-electrode-bridge@1.5.9"
-              ],
-              "miniApps": {
-                "container": [
+              "container": {
+                "nativeDeps": [
+                  "react-native-code-push@5.1.3-beta",
+                  "react-native-ernmovie-api@0.0.9",
+                  "react-native-ernnavigation-api@0.0.4",
+                  "react-native@0.51.0",
+                  "react-native-electrode-bridge@1.5.9"
+                ],
+                "miniApps": [
                   "movielistminiapp@0.0.9",
                   "moviedetailsminiapp@0.0.8"
                 ]

@@ -25,11 +25,11 @@
                 "container": "c2d5f4d5e5786f4eaa253e20b617bdc61dfd0a02"
               },
               "nativeDeps": [
-                  "react-native-code-push@5.1.3-beta",
-                  "react-native-ernmovie-api@0.0.9",
-                  "react-native-ernnavigation-api@0.0.4",
-                  "react-native@0.51.0",
-                  "react-native-electrode-bridge@1.5.9"
+                "react-native-code-push@5.1.3-beta",
+                "react-native-ernmovie-api@0.0.9",
+                "react-native-ernnavigation-api@0.0.4",
+                "react-native@0.51.0",
+                "react-native-electrode-bridge@1.5.9"
               ],
               "miniApps": {
                 "container": [
@@ -62,12 +62,12 @@
               "isReleased": false,
               "binary": null,
               "nativeDeps": [
-                  "react-native-code-push@5.1.3-beta",
-                  "react-native-ernmovie-api@0.0.9",
-                  "react-native-ernnavigation-api@0.0.4",
-                  "react-native@0.51.0",
-                  "react-native-electrode-bridge@1.5.9"
-               ],
+                "react-native-code-push@5.1.3-beta",
+                "react-native-ernmovie-api@0.0.9",
+                "react-native-ernnavigation-api@0.0.4",
+                "react-native@0.51.0",
+                "react-native-electrode-bridge@1.5.9"
+              ],
               "miniApps": {
                 "container": [
                   "movielistminiapp@0.0.9",
@@ -75,15 +75,15 @@
                 ]
               },
               "codePush": {},
-              "containerVersion": "1.0.2",
+              "containerVersion": "1.0.3",
               "yarnLocks": {
-                "container": "c2d5f4d5e5786f4eaa253e20b617bdc61dfd0a02"
+                "container": "33013f306fa68c56aececaf3582919a585cbdd7f"
               }
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.2",
+              "containerVersion": "1.0.3",
               "publishers": [
                 {
                   "name": "github",

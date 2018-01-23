@@ -24,15 +24,15 @@
               "yarnLocks": {
                 "container": "c2d5f4d5e5786f4eaa253e20b617bdc61dfd0a02"
               },
-              "container": {
-                "nativeDeps": [
+              "nativeDeps": [
                   "react-native-code-push@5.1.3-beta",
                   "react-native-ernmovie-api@0.0.9",
                   "react-native-ernnavigation-api@0.0.4",
                   "react-native@0.51.0",
                   "react-native-electrode-bridge@1.5.9"
-                ],
-                "miniApps": [
+              ],
+              "miniApps": {
+                "container": [
                   "movielistminiapp@0.0.9",
                   "moviedetailsminiapp@0.0.8"
                 ]

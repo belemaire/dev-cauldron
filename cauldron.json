@@ -89,7 +89,7 @@
               "publishers": [
                 {
                   "name": "github",
-                  "url": "https://github.com/belemaire/system-test-container-android.git"
+                  "url": "git@github.com:belemaire/system-test-container-android.git"
                 }
               ]
             }

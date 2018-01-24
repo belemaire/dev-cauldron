@@ -63,9 +63,9 @@
               "isReleased": false,
               "binary": null,
               "codePush": {},
-              "containerVersion": "1.0.3",
+              "containerVersion": "1.0.4",
               "yarnLocks": {
-                "container": "33013f306fa68c56aececaf3582919a585cbdd7f"
+                "container": "357928760e9992a859159c0c0eaed0ee6dc63dad"
               },
               "container": {
                 "nativeDeps": [
@@ -85,7 +85,7 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.3",
+              "containerVersion": "1.0.4",
               "publishers": [
                 {
                   "name": "github",

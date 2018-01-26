@@ -9,8 +9,10 @@
       "entriesLimit": 2
     },
     "manifest": {
-      "override": "git@github.com:belemaire/electrode-native-manifest.git",
-      "type": "partial"
+      "override": {
+        "url": "git@github.com:belemaire/electrode-native-manifest.git",
+        "type": "partial"
+      }
     }
   },
   "nativeApps": [

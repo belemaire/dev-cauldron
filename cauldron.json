@@ -75,7 +75,7 @@
               },
               "container": {
                 "nativeDeps": [
-                  "@test/react-native-code-push@5.2.1",
+                  "react-native-code-push@5.2.1",
                   "react-native-ernmovie-api@0.0.9",
                   "react-native-ernnavigation-api@0.0.4",
                   "react-native@0.52.2",

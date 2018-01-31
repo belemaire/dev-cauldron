@@ -28,21 +28,21 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "c2d5f4d5e5786f4eaa253e20b617bdc61dfd0a02"
+                "container": null
               },
               "codePush": {},
               "containerVersion": "1.0.2",
               "container": {
                 "nativeDeps": [
-                  "react-native-code-push@5.1.3-beta",
+                  "react-native-code-push@5.2.1",
                   "react-native-ernmovie-api@0.0.9",
                   "react-native-ernnavigation-api@0.0.4",
-                  "react-native@0.51.0",
+                  "react-native@0.52.2",
                   "react-native-electrode-bridge@1.5.9"
                 ],
                 "miniApps": [
-                  "movielistminiapp@0.0.9",
-                  "moviedetailsminiapp@0.0.8"
+                  "movielistminiapp@0.0.10",
+                  "moviedetailsminiapp@0.0.9"
                 ],
                 "jsApiImpls": []
               }
@@ -71,19 +71,19 @@
               "codePush": {},
               "containerVersion": "1.0.4",
               "yarnLocks": {
-                "container": "357928760e9992a859159c0c0eaed0ee6dc63dad"
+                "container": null
               },
               "container": {
                 "nativeDeps": [
-                  "@test/react-native-code-push@5.1.3-beta",
+                  "@test/react-native-code-push@5.2.1",
                   "react-native-ernmovie-api@0.0.9",
                   "react-native-ernnavigation-api@0.0.4",
-                  "react-native@0.51.0",
+                  "react-native@0.52.2",
                   "react-native-electrode-bridge@1.5.9"
                 ],
                 "miniApps": [
-                  "movielistminiapp@0.0.9",
-                  "moviedetailsminiapp@0.0.8"
+                  "movielistminiapp@0.0.10",
+                  "moviedetailsminiapp@0.0.9"
                 ],
                 "jsApiImpls": []
               }

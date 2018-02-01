@@ -96,6 +96,10 @@
                 {
                   "name": "github",
                   "url": "https://github.com/belemaire/system-test-container-android.git"
+                },
+                {
+                  "name": "maven",
+                  "url": "file://Users/blemair/.m2/repository"
                 }
               ]
             }

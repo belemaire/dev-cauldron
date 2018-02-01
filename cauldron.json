@@ -99,7 +99,7 @@
                 },
                 {
                   "name": "maven",
-                  "url": "file:/~/.m2/repository"
+                  "url": "file:~/.m2/repository"
                 }
               ]
             }

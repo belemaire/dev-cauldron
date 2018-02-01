@@ -99,7 +99,7 @@
                 },
                 {
                   "name": "maven",
-                  "url": "file://Users/blemair/.m2/repository"
+                  "url": "file:/Users/blemair/.m2/repository"
                 }
               ]
             }

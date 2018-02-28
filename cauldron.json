@@ -1,9 +1,11 @@
 {
   "minErnVersion": "0.10.0",
   "config": {
-    "binaryStore": {
-      "provider": "ern-binary-store",
-      "url": "http://localhost:3000"
+    "manifest": {
+      "override": {
+        "url": "https://github.com/electrode-io/electrode-native-starter-manifest",
+        "type": "partial"
+      }
     },
     "codePush": {
       "entriesLimit": 2

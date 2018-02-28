@@ -189,6 +189,29 @@
           ]
         }
       ]
+    },
+    {
+      "name": "tempapp",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnLocks": {},
+              "nativeDeps": [],
+              "container": {
+                "miniApps": [],
+                "nativeDeps": [],
+                "jsApiImpls": []
+              },
+              "codePush": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "schemaVersion": "1.0.0"

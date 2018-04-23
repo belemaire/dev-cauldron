@@ -3,7 +3,7 @@
   "config": {
     "manifest": {
       "override": {
-        "url": "https://github.com/electrode-io/electrode-native-starter-manifest",
+        "url": "https://github.com/belemaire/electrode-native-manifest",
         "type": "partial"
       }
     },

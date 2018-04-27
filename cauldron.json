@@ -1,12 +1,6 @@
 {
   "minErnVersion": "0.10.0",
   "config": {
-    "manifest": {
-      "override": {
-        "url": "https://github.com/belemaire/electrode-native-manifest",
-        "type": "partial"
-      }
-    },
     "codePush": {
       "entriesLimit": 2
     }

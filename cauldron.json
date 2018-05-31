@@ -45,6 +45,9 @@
                 {
                   "name": "github",
                   "url": "https://github.com/belemaire/system-test-container-ios.git"
+                },
+                {
+                  "name": "dummy"
                 }
               ]
             }

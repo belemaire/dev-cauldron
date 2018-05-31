@@ -18,10 +18,10 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": null
+                "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
               },
               "codePush": {},
-              "containerVersion": "1.0.2",
+              "containerVersion": "1.0.3",
               "container": {
                 "nativeDeps": [
                   "react-native-code-push@5.2.1",
@@ -40,7 +40,7 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.2",
+              "containerVersion": "1.0.3",
               "publishers": [
                 {
                   "extra": "{\"hello\":\"world\"}",

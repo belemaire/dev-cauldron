@@ -42,7 +42,13 @@
             "containerGenerator": {
               "containerVersion": "1.0.3",
               "publishers": [
-               
+                {
+                  "extra": {
+                    "hello": "world"
+                  },
+                  "name": "dummy",
+                  "url": "dummyurl"
+                }
               ]
             }
           }

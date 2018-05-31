@@ -41,11 +41,6 @@
           "config": {
             "containerGenerator": {
               "containerVersion": "1.0.2",
-              "publishers": [
-                {
-                  "name": "github",
-                  "url": "https://github.com/belemaire/system-test-container-ios.git"
-                },
                 {
                   "extra": "{\"hello\":\"world\"}",
                   "name": "dummy",

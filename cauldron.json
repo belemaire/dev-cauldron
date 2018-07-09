@@ -49,11 +49,13 @@
             "containerGenerator": {
               "containerVersion": "1.0.4",
               "transformers": [
-                "name": "/Users/blemair/Code/ern-container-transformer-build-config",
-                "extra": {
-                  "configurations": ["ElectrodeContainer-Debug"],
-                  "settings": {
-                    "TOTO": "YES"
+                {
+                  "name": "/Users/blemair/Code/ern-container-transformer-build-config",
+                  "extra": {
+                    "configurations": ["ElectrodeContainer-Debug"],
+                    "settings": {
+                      "TOTO": "YES"
+                    }
                   }
                 }
               ],

@@ -27,7 +27,7 @@
                 "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
               },
               "codePush": {},
-              "containerVersion": "1.0.4",
+              "containerVersion": "1.0.5",
               "container": {
                 "nativeDeps": [
                   "react-native-code-push@5.2.1",
@@ -47,12 +47,14 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.4",
+              "containerVersion": "1.0.5",
               "transformers": [
                 {
                   "name": "/Users/blemair/Code/ern-container-transformer-build-config",
                   "extra": {
-                    "configurations": ["ElectrodeContainer-Debug"],
+                    "configurations": [
+                      "ElectrodeContainer-Debug"
+                    ],
                     "settings": {
                       "TOTO": "YES"
                     }

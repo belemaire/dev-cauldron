@@ -1,6 +1,6 @@
 {
   "minErnVersion": "0.10.0",
-   "config": {
+  "config": {
     "manifest": {
       "override": {
         "url": "git@github.com:gmbharath12/electrode-react-native-manifest.git",
@@ -27,7 +27,7 @@
                 "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
               },
               "codePush": {},
-              "containerVersion": "1.0.3",
+              "containerVersion": "1.0.4",
               "container": {
                 "nativeDeps": [
                   "react-native-code-push@5.2.1",
@@ -40,13 +40,14 @@
                   "movielistminiapp@0.0.10",
                   "moviedetailsminiapp@0.0.9"
                 ],
-                "jsApiImpls": []
+                "jsApiImpls": [],
+                "ernVersion": "1000.0.0"
               }
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.3",
+              "containerVersion": "1.0.4",
               "publishers": [
                 {
                   "extra": {

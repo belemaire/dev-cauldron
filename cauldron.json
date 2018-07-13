@@ -50,7 +50,7 @@
               "containerVersion": "1.0.6",
               "publishers": [
                 {
-                  "name": "maven@0.21.0",
+                  "name": "maven@^1.0.0",
                   "url": "https://nourl"
                 }
               ]

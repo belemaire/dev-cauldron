@@ -27,7 +27,7 @@
                 "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
               },
               "codePush": {},
-              "containerVersion": "1.0.5",
+              "containerVersion": "1.0.6",
               "container": {
                 "nativeDeps": [
                   "react-native-code-push@5.2.1",
@@ -41,13 +41,13 @@
                   "moviedetailsminiapp@0.0.9"
                 ],
                 "jsApiImpls": [],
-                "ernVersion": "1000.0.0"
+                "ernVersion": "0.21.1"
               }
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.5",
+              "containerVersion": "1.0.6",
               "publishers": [
                 {
                   "name": "maven@0.21.0",

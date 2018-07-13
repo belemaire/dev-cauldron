@@ -48,26 +48,10 @@
           "config": {
             "containerGenerator": {
               "containerVersion": "1.0.5",
-              "transformers": [
-                {
-                  "name": "/Users/blemair/Code/ern-container-transformer-build-config",
-                  "extra": {
-                    "configurations": [
-                      "ElectrodeContainer-Debug"
-                    ],
-                    "settings": {
-                      "TOTO": "YES"
-                    }
-                  }
-                }
-              ],
               "publishers": [
                 {
-                  "extra": {
-                    "hello": "world"
-                  },
-                  "name": "dummy",
-                  "url": "dummyurl"
+                  "name": "maven@0.21.1",
+                  "url": "https://nourl"
                 }
               ]
             }

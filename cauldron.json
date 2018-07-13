@@ -27,7 +27,7 @@
                 "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
               },
               "codePush": {},
-              "containerVersion": "1.0.8",
+              "containerVersion": "1.0.9",
               "container": {
                 "nativeDeps": [
                   "react-native-code-push@5.2.1",
@@ -47,7 +47,7 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.8",
+              "containerVersion": "1.0.9",
               "publishers": [
                 {
                   "name": "maven@^1.0.0",

@@ -186,6 +186,29 @@
           ]
         }
       ]
+    },
+    {
+      "name": "fatbinary",
+      "platforms": [
+        {
+          "name": "ios",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "schemaVersion": "1.0.0"

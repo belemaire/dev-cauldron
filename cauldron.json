@@ -216,18 +216,21 @@
               "yarnLocks": {
                 "container": "c7e1d1eeb798759109d271f90a2613db62def4b9"
               },
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.1"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.0",
+              "containerVersion": "1.0.1",
               "transformers": [
                 {
                   "name": "build-config",
                   "extra": {
-                    "configurations": ["ElectrodeContainer-Debug", "ElectrodeContainer-Release"],
-                    "settings" : {
+                    "configurations": [
+                      "ElectrodeContainer-Debug",
+                      "ElectrodeContainer-Release"
+                    ],
+                    "settings": {
                       "ENABLE_BITCODE": "NO",
                       "DEBUG_INFORMATION_FORMAT": "dwarf-with-dsym"
                     }

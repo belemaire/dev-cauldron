@@ -218,7 +218,30 @@
               },
               "containerVersion": "1.0.0"
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.0",
+              "transformers": [
+                {
+                  "name": "build-config",
+                  "extra": {
+                    "configurations": ["ElectrodeContainer-Debug", "ElectrodeContainer-Release"],
+                    "settings" : {
+                      "ENABLE_BITCODE": "NO",
+                      "DEBUG_INFORMATION_FORMAT": "dwarf-with-dsym"
+                    }
+                  }
+                },
+                {
+                  "name": "/Users/blemair/Code/container-transformers/ern-container-transformer-script",
+                  "extra": {
+                    "scriptPath": "/Users/blemair/fatty.sh"
+                  }
+                }
+              ]
+            }
+          }
         }
       ]
     }

@@ -68,7 +68,6 @@
               "codePush": {},
               "containerVersion": "1.0.14",
               "yarnLocks": {
-                "container": "2c6a43f5f5c7cf1daaf463a0fef4531368bee719"
               },
               "container": {
                 "nativeDeps": [

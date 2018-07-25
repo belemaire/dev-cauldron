@@ -66,7 +66,7 @@
               "isReleased": false,
               "binary": null,
               "codePush": {},
-              "containerVersion": "1.0.12",
+              "containerVersion": "1.0.13",
               "yarnLocks": {
                 "container": "2c6a43f5f5c7cf1daaf463a0fef4531368bee719"
               },
@@ -82,13 +82,14 @@
                   "movielistminiapp@0.0.10",
                   "moviedetailsminiapp@0.0.9"
                 ],
-                "jsApiImpls": []
+                "jsApiImpls": [],
+                "ernVersion": "1000.0.0"
               }
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.12",
+              "containerVersion": "1.0.13",
               "publishers": [
                 {
                   "name": "github",

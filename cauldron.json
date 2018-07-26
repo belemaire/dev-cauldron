@@ -67,8 +67,7 @@
               "binary": null,
               "codePush": {},
               "containerVersion": "1.0.14",
-              "yarnLocks": {
-              },
+              "yarnLocks": {},
               "container": {
                 "nativeDeps": [
                   "react-native-code-push@5.2.1",
@@ -216,12 +215,12 @@
               "yarnLocks": {
                 "container": "c7e1d1eeb798759109d271f90a2613db62def4b9"
               },
-              "containerVersion": "1.0.3"
+              "containerVersion": "1.0.4"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.3",
+              "containerVersion": "1.0.4",
               "transformers": [
                 {
                   "name": "build-config",

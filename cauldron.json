@@ -215,12 +215,12 @@
               "yarnLocks": {
                 "container": "c7e1d1eeb798759109d271f90a2613db62def4b9"
               },
-              "containerVersion": "1.0.10"
+              "containerVersion": "1.0.11"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.10",
+              "containerVersion": "1.0.11",
               "transformers": [
                 {
                   "name": "build-config",

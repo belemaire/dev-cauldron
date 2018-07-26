@@ -16,8 +16,6 @@
 # 4. "Debug Information Format" should be "DWARF with dSYM File" for both debug and release.
 # 5. Bitcode must be disabled.
 
-pushd $1
-
 # Project variables
 project_config_dir="Config"
 project_name="ElectrodeContainer"
@@ -132,7 +130,3 @@ cp -r $device_symbols $products_dir
 cp $binary_dir/$fat_binary_name.dSYM.binary $products_dir/$project_name.framework.dSYM/Contents/Resources/DWARF/$project_name
 mv $project_name.framework.zip $products_dir
 echo "Done! Final products are in $products_dir/"
-
-popd
-
-exit 0

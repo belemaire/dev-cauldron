@@ -134,3 +134,5 @@ mv $project_name.framework.zip $products_dir
 echo "Done! Final products are in $products_dir/"
 
 popd
+
+exit 0

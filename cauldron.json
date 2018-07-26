@@ -239,7 +239,7 @@
                 {
                   "name": "/Users/blemair/Code/container-transformers/ern-container-transformer-script",
                   "extra": {
-                    "scriptPath": "/Users/blemair/fatty.sh"
+                    "scriptPath": "cauldron://scripts/fat.sh"
                   }
                 }
               ]

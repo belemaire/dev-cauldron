@@ -66,8 +66,10 @@
               "isReleased": false,
               "binary": null,
               "codePush": {},
-              "containerVersion": "1.0.14",
-              "yarnLocks": {},
+              "containerVersion": "1.0.15",
+              "yarnLocks": {
+                "container": "0c35527e42b6550b67f99f008f8eb3d0ab04ed23"
+              },
               "container": {
                 "nativeDeps": [
                   "react-native-code-push@5.2.1",
@@ -87,7 +89,7 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.14",
+              "containerVersion": "1.0.15",
               "publishers": [
                 {
                   "name": "github",

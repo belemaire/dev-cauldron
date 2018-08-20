@@ -7,7 +7,7 @@
         "type": "partial"
       }
     },
-    "codePush": "{\"entriesLimit\": 10}"
+    "codePush": {}
   },
   "nativeApps": [
     {

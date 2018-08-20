@@ -136,11 +136,7 @@
         {
           "name": "ios",
           "versions": [],
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.0"
-            }
-          }
+          "config": {}
         }
       ]
     },

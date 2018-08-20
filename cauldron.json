@@ -10,7 +10,6 @@
     "codePush": {
       "entriesLimit": 10
     },
-    "bla": false,
     "foo": 3
   },
   "nativeApps": [

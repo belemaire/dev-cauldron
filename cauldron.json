@@ -9,7 +9,8 @@
     },
     "codePush": {
       "entriesLimit": 10
-    }
+    },
+    "bla": false
   },
   "nativeApps": [
     {

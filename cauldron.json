@@ -1,12 +1,6 @@
 {
   "minErnVersion": "0.10.0",
   "config": {
-    "manifest": {
-      "override": {
-        "url": "git@github.com:gmbharath12/electrode-react-native-manifest.git",
-        "type": "partial"
-      }
-    },
     "codePush": {
       "entriesLimit": 10
     },

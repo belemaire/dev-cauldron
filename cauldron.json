@@ -120,7 +120,7 @@
               "containerVersion": "1.0.21",
               "publishers": [
                 {
-                  "name": "github",
+                  "name": "git@1.0.0",
                   "url": "https://github.com/belemaire/system-test-container-android.git"
                 },
                 {

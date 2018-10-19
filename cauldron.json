@@ -120,7 +120,7 @@
               "isReleased": false,
               "binary": null,
               "codePush": {},
-              "containerVersion": "1.0.27",
+              "containerVersion": "1.0.28",
               "yarnLocks": {
                 "container": "0c35527e42b6550b67f99f008f8eb3d0ab04ed23"
               },
@@ -143,7 +143,7 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.27",
+              "containerVersion": "1.0.28",
               "publishers": [
                 {
                   "name": "git@^1.0.0",

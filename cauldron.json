@@ -357,12 +357,28 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "https://github.com/belemaire/MovieListMiniApp.git#6e877d87282b32510b91d25c4e4cf43f969b4d6b",
+                  "https://github.com/belemaire/MovieDetailsMiniApp.git#ea2e2d248c6af5eb14d76e4108ec922febd096f5"
+                ],
+                "nativeDeps": [
+                  "react-native-ernmovie-api@0.0.11",
+                  "react-native-ernnavigation-api@0.0.5",
+                  "react-native-electrode-bridge@1.5.16",
+                  "react-native@0.56.0"
+                ],
+                "miniAppsBranches": [
+                  "https://github.com/belemaire/MovieListMiniApp.git#master",
+                  "https://github.com/belemaire/MovieDetailsMiniApp.git#master"
+                ],
+                "ernVersion": "1000.0.0"
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "7a99c213e7ab23dfc95aefd1dc04073fc6864eca"
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }

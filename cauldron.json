@@ -6,7 +6,7 @@
     },
     "manifest": {
       "override": {
-        "url": "https://b298538453b22e145d26dd4dc701b54e8c4abf70@gecgithub01.walmart.com/Global-Time-Attendance/MyPortalManifest.git",
+        "url": "https://gecgithub01.walmart.com/Global-Time-Attendance/MyPortalManifest.git",
         "type": "partial"
       }
     },

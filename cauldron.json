@@ -42,7 +42,9 @@
                   "moviedetailsminiapp@0.0.9"
                 ],
                 "jsApiImpls": [],
-                "ernVersion": "0.21.1"
+                "ernVersion": "0.21.1",
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               }
             },
             {
@@ -62,7 +64,9 @@
                   "react-native@0.52.2",
                   "react-native-electrode-bridge@1.5.9"
                 ],
-                "ernVersion": "0.21.1"
+                "ernVersion": "0.21.1",
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               },
               "isReleased": false,
               "nativeDeps": [],
@@ -88,7 +92,9 @@
                   "react-native@0.52.2",
                   "react-native-electrode-bridge@1.5.9"
                 ],
-                "ernVersion": "0.21.1"
+                "ernVersion": "0.21.1",
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               },
               "isReleased": false,
               "nativeDeps": [],
@@ -137,7 +143,9 @@
                   "moviedetailsminiapp@0.0.9"
                 ],
                 "jsApiImpls": [],
-                "ernVersion": "1000.0.0"
+                "ernVersion": "1000.0.0",
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               }
             }
           ],
@@ -174,7 +182,9 @@
               "container": {
                 "miniApps": [],
                 "nativeDeps": [],
-                "jsApiImpls": []
+                "jsApiImpls": [],
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               },
               "codePush": {}
             }
@@ -207,7 +217,9 @@
               "container": {
                 "miniApps": [],
                 "nativeDeps": [],
-                "jsApiImpls": []
+                "jsApiImpls": [],
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               },
               "codePush": {}
             }
@@ -230,7 +242,9 @@
               "container": {
                 "miniApps": [],
                 "nativeDeps": [],
-                "jsApiImpls": []
+                "jsApiImpls": [],
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               },
               "codePush": {}
             }
@@ -260,7 +274,9 @@
                   "react-native-electrode-bridge@1.5.15",
                   "react-native@0.55.4"
                 ],
-                "ernVersion": "1000.0.0"
+                "ernVersion": "1000.0.0",
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               },
               "isReleased": false,
               "nativeDeps": [],
@@ -312,7 +328,9 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [],
-                "nativeDeps": []
+                "nativeDeps": [],
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               },
               "isReleased": false,
               "nativeDeps": [],
@@ -335,7 +353,9 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [],
-                "nativeDeps": []
+                "nativeDeps": [],
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               },
               "isReleased": false,
               "nativeDeps": [],
@@ -367,11 +387,9 @@
                   "react-native-electrode-bridge@1.5.16",
                   "react-native@0.56.0"
                 ],
-                "miniAppsBranches": [
-                  "https://github.com/belemaire/MovieListMiniApp.git#master",
-                  "https://github.com/belemaire/MovieDetailsMiniApp.git#master"
-                ],
-                "ernVersion": "1000.0.0"
+                "miniAppsBranches": [],
+                "ernVersion": "1000.0.0",
+                "jsApiImplsBranches": []
               },
               "isReleased": false,
               "nativeDeps": [],
@@ -398,7 +416,9 @@
                 "jsApiImpls": [],
                 "miniApps": [],
                 "nativeDeps": [],
-                "ernVersion": "1000.0.0"
+                "ernVersion": "1000.0.0",
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               },
               "isReleased": false,
               "nativeDeps": [],
@@ -410,5 +430,5 @@
       ]
     }
   ],
-  "schemaVersion": "1.0.0"
+  "schemaVersion": "2.0.0"
 }

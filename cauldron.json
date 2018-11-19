@@ -6,7 +6,7 @@
     },
     "manifest": {
       "override": {
-        "url": "https://gecgithub01.walmart.com/Global-Time-Attendance/MyPortalManifest.git",
+        "url": "https://github.com/belemaire/electrode-native-manifest.git",
         "type": "partial"
       }
     },

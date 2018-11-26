@@ -1,18 +1,6 @@
 {
   "minErnVersion": "0.10.0",
-  "config": {
-    "codePush": {
-      "entriesLimit": 10
-    },
-    "manifest": {
-      "override": {
-        "url": "https://github.com/belemaire/electrode-native-manifest.git",
-        "type": "partial"
-      }
-    },
-    "foo": 3,
-    "requiredErnVersion": "0.26.0"
-  },
+  "config": {},
   "nativeApps": [
     {
       "name": "system-test-app",

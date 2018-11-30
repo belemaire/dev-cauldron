@@ -440,7 +440,7 @@
                   "react-native@0.57.5"
                 ],
                 "miniAppsBranches": [
-                  "https://github.com/belemaire/MovieListMiniApp.git#test"
+                  "https://github.com/belemaire/MovieListMiniApp.git#master"
                 ],
                 "ernVersion": "1000.0.0"
               },

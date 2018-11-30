@@ -440,14 +440,14 @@
                   "react-native@0.57.5"
                 ],
                 "miniAppsBranches": [
-                  "https://github.com/belemaire/MovieListMiniApp.git#master"
+                  "https://github.com/belemaire/MovieListMiniApp.git#test"
                 ],
                 "ernVersion": "1000.0.0"
               },
               "isReleased": false,
               "nativeDeps": [],
               "yarnLocks": {
-                "container": "87e75f46-0ed1-422c-996e-0aeee3d42bf7"
+                "container": "fd894501f8e1cf17142a160140faa6dc721e4e7c"
               },
               "containerVersion": "1.0.0"
             }

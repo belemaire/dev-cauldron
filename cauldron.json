@@ -3,6 +3,156 @@
   "config": {},
   "nativeApps": [
     {
+      "name": "benoit",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": [],
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "branchtest",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [
+                  "https://github.com/belemaire/MovieListMiniApp.git#f7c335b8449f7cd23ee1b83b25e172c44e05e0ed"
+                ],
+                "nativeDeps": [
+                  "react-native-ernmovie-api@0.0.11",
+                  "react-native-ernnavigation-api@0.0.5",
+                  "react-native-electrode-bridge@1.5.16",
+                  "react-native@0.57.5"
+                ],
+                "miniAppsBranches": [
+                  "https://github.com/belemaire/MovieListMiniApp.git#master"
+                ],
+                "ernVersion": "1000.0.0"
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {
+                "container": "fd894501f8e1cf17142a160140faa6dc721e4e7c"
+              },
+              "containerVersion": "1.0.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fatbinary",
+      "platforms": [
+        {
+          "name": "ios",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [
+                  "movielistminiapp@0.0.21",
+                  "moviedetailsminiapp@0.0.20"
+                ],
+                "nativeDeps": [
+                  "react-native-ernmovie-api@0.0.9",
+                  "react-native-ernnavigation-api@0.0.4",
+                  "react-native-electrode-bridge@1.5.15",
+                  "react-native@0.55.4"
+                ],
+                "ernVersion": "1000.0.0",
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {
+                "container": "c7e1d1eeb798759109d271f90a2613db62def4b9"
+              },
+              "containerVersion": "1.0.11"
+            }
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.11",
+              "transformers": [
+                {
+                  "name": "build-config",
+                  "extra": {
+                    "configurations": [
+                      "ElectrodeContainer-Debug",
+                      "ElectrodeContainer-Release"
+                    ],
+                    "settings": {
+                      "ENABLE_BITCODE": "NO",
+                      "DEBUG_INFORMATION_FORMAT": "dwarf-with-dsym"
+                    }
+                  }
+                },
+                {
+                  "name": "/Users/blemair/Code/container-transformers/ern-container-transformer-script",
+                  "extra": {
+                    "scriptPath": "cauldron://scripts/fat.sh"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "foo",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": [],
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "system-test-app",
       "platforms": [
         {
@@ -157,66 +307,6 @@
       ]
     },
     {
-      "name": "testapp",
-      "platforms": [
-        {
-          "name": "android",
-          "versions": [
-            {
-              "name": "1.0.0",
-              "isReleased": false,
-              "binary": null,
-              "yarnLocks": {},
-              "nativeDeps": [],
-              "container": {
-                "miniApps": [],
-                "nativeDeps": [],
-                "jsApiImpls": [],
-                "miniAppsBranches": [],
-                "jsApiImplsBranches": []
-              },
-              "codePush": {}
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "walmartupdate",
-      "platforms": [
-        {
-          "name": "ios",
-          "versions": [],
-          "config": {}
-        }
-      ]
-    },
-    {
-      "name": "testnativeapp",
-      "platforms": [
-        {
-          "name": "android",
-          "versions": [
-            {
-              "name": "1.0.0",
-              "isReleased": false,
-              "binary": null,
-              "yarnLocks": {},
-              "nativeDeps": [],
-              "container": {
-                "miniApps": [],
-                "nativeDeps": [],
-                "jsApiImpls": [],
-                "miniAppsBranches": [],
-                "jsApiImplsBranches": []
-              },
-              "codePush": {}
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "tempapp",
       "platforms": [
         {
@@ -242,113 +332,25 @@
       ]
     },
     {
-      "name": "fatbinary",
-      "platforms": [
-        {
-          "name": "ios",
-          "versions": [
-            {
-              "name": "1.0.0",
-              "binary": null,
-              "codePush": {},
-              "container": {
-                "jsApiImpls": [],
-                "miniApps": [
-                  "movielistminiapp@0.0.21",
-                  "moviedetailsminiapp@0.0.20"
-                ],
-                "nativeDeps": [
-                  "react-native-ernmovie-api@0.0.9",
-                  "react-native-ernnavigation-api@0.0.4",
-                  "react-native-electrode-bridge@1.5.15",
-                  "react-native@0.55.4"
-                ],
-                "ernVersion": "1000.0.0",
-                "miniAppsBranches": [],
-                "jsApiImplsBranches": []
-              },
-              "isReleased": false,
-              "nativeDeps": [],
-              "yarnLocks": {
-                "container": "c7e1d1eeb798759109d271f90a2613db62def4b9"
-              },
-              "containerVersion": "1.0.11"
-            }
-          ],
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.11",
-              "transformers": [
-                {
-                  "name": "build-config",
-                  "extra": {
-                    "configurations": [
-                      "ElectrodeContainer-Debug",
-                      "ElectrodeContainer-Release"
-                    ],
-                    "settings": {
-                      "ENABLE_BITCODE": "NO",
-                      "DEBUG_INFORMATION_FORMAT": "dwarf-with-dsym"
-                    }
-                  }
-                },
-                {
-                  "name": "/Users/blemair/Code/container-transformers/ern-container-transformer-script",
-                  "extra": {
-                    "scriptPath": "cauldron://scripts/fat.sh"
-                  }
-                }
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "foo",
+      "name": "testapp",
       "platforms": [
         {
           "name": "android",
           "versions": [
             {
               "name": "1.0.0",
+              "isReleased": false,
               "binary": null,
-              "codePush": {},
+              "yarnLocks": {},
+              "nativeDeps": [],
               "container": {
-                "jsApiImpls": [],
                 "miniApps": [],
                 "nativeDeps": [],
+                "jsApiImpls": [],
                 "miniAppsBranches": [],
                 "jsApiImplsBranches": []
               },
-              "isReleased": false,
-              "nativeDeps": [],
-              "yarnLocks": {}
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "benoit",
-      "platforms": [
-        {
-          "name": "android",
-          "versions": [
-            {
-              "name": "1.0.0",
-              "binary": null,
-              "codePush": {},
-              "container": {
-                "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": [],
-                "miniAppsBranches": [],
-                "jsApiImplsBranches": []
-              },
-              "isReleased": false,
-              "nativeDeps": [],
-              "yarnLocks": {}
+              "codePush": {}
             }
           ]
         }
@@ -392,6 +394,54 @@
       ]
     },
     {
+      "name": "testnativeapp",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnLocks": {},
+              "nativeDeps": [],
+              "container": {
+                "miniApps": [],
+                "nativeDeps": [],
+                "jsApiImpls": [],
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
+              },
+              "codePush": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "testsort",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "tmp",
       "platforms": [
         {
@@ -419,39 +469,12 @@
       ]
     },
     {
-      "name": "branchtest",
+      "name": "walmartupdate",
       "platforms": [
         {
-          "name": "android",
-          "versions": [
-            {
-              "name": "1.0.0",
-              "binary": null,
-              "codePush": {},
-              "container": {
-                "jsApiImpls": [],
-                "miniApps": [
-                  "https://github.com/belemaire/MovieListMiniApp.git#f7c335b8449f7cd23ee1b83b25e172c44e05e0ed"
-                ],
-                "nativeDeps": [
-                  "react-native-ernmovie-api@0.0.11",
-                  "react-native-ernnavigation-api@0.0.5",
-                  "react-native-electrode-bridge@1.5.16",
-                  "react-native@0.57.5"
-                ],
-                "miniAppsBranches": [
-                  "https://github.com/belemaire/MovieListMiniApp.git#master"
-                ],
-                "ernVersion": "1000.0.0"
-              },
-              "isReleased": false,
-              "nativeDeps": [],
-              "yarnLocks": {
-                "container": "fd894501f8e1cf17142a160140faa6dc721e4e7c"
-              },
-              "containerVersion": "1.0.0"
-            }
-          ]
+          "name": "ios",
+          "versions": [],
+          "config": {}
         }
       ]
     }

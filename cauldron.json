@@ -1,6 +1,13 @@
 {
   "minErnVersion": "0.10.0",
-  "config": {},
+   "config": {
+    "manifest": {
+      "override": {
+        "url": "https://github.com/belemaire/electrode-native-manifest.git",
+        "type": "partial"
+      }
+    }
+  },
   "nativeApps": [
     {
       "name": "benoit",

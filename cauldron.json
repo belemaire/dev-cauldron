@@ -1,13 +1,5 @@
 {
   "minErnVersion": "0.10.0",
-   "config": {
-    "manifest": {
-      "override": {
-        "url": "https://github.com/belemaire/electrode-native-manifest.git",
-        "type": "partial"
-      }
-    }
-  },
   "nativeApps": [
     {
       "name": "benoit",
@@ -105,32 +97,7 @@
               "containerVersion": "1.0.11"
             }
           ],
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.11",
-              "transformers": [
-                {
-                  "name": "build-config",
-                  "extra": {
-                    "configurations": [
-                      "ElectrodeContainer-Debug",
-                      "ElectrodeContainer-Release"
-                    ],
-                    "settings": {
-                      "ENABLE_BITCODE": "NO",
-                      "DEBUG_INFORMATION_FORMAT": "dwarf-with-dsym"
-                    }
-                  }
-                },
-                {
-                  "name": "/Users/blemair/Code/container-transformers/ern-container-transformer-script",
-                  "extra": {
-                    "scriptPath": "cauldron://scripts/fat.sh"
-                  }
-                }
-              ]
-            }
-          }
+          "containerVersion": "1.0.11"
         }
       ]
     },
@@ -263,18 +230,7 @@
               "containerVersion": "1.0.9"
             }
           ],
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.9",
-              "publishers": [
-                {
-                  "name": "maven@^1.0.0",
-                  "url": "https://nourl"
-                }
-              ]
-            },
-            "bla": false
-          }
+          "containerVersion": "1.0.9"
         },
         {
           "name": "android",
@@ -308,21 +264,7 @@
               }
             }
           ],
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.30",
-              "publishers": [
-                {
-                  "name": "git@^1.0.0",
-                  "url": "https://github.com/belemaire/system-test-container-android.git"
-                },
-                {
-                  "name": "maven@^1.0.0",
-                  "url": "file:~/.m2/repository"
-                }
-              ]
-            }
-          }
+          "containerVersion": "1.0.30"
         }
       ]
     },
@@ -493,11 +435,10 @@
       "platforms": [
         {
           "name": "ios",
-          "versions": [],
-          "config": {}
+          "versions": []
         }
       ]
     }
   ],
-  "schemaVersion": "2.0.0"
+  "schemaVersion": "3.0.0"
 }

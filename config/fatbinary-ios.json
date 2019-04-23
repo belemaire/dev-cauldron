@@ -1,0 +1,25 @@
+{
+  "containerGenerator": {
+    "pipeline": [
+      {
+        "name": "ern-container-transformer-build-config",
+        "extra": {
+          "configurations": [
+            "ElectrodeContainer-Debug",
+            "ElectrodeContainer-Release"
+          ],
+          "settings": {
+            "ENABLE_BITCODE": "NO",
+            "DEBUG_INFORMATION_FORMAT": "dwarf-with-dsym"
+          }
+        }
+      },
+      {
+        "name": "ern-container-transformer-/Users/blemair/Code/container-transformers/ern-container-transformer-script",
+        "extra": {
+          "scriptPath": "cauldron://scripts/fat.sh"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "containerGenerator": {
+    "pipeline": [
+      {
+        "name": "ern-container-publisher-maven@^1.0.0",
+        "url": "https://nourl"
+      }
+    ]
+  },
+  "bla": false
+}

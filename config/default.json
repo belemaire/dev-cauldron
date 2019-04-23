@@ -1,0 +1,8 @@
+{
+  "manifest": {
+    "override": {
+      "url": "https://github.com/belemaire/electrode-native-manifest.git",
+      "type": "partial"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "containerGenerator": {
+    "pipeline": [
+      {
+        "name": "ern-container-publisher-git@^1.0.0",
+        "url": "https://github.com/belemaire/system-test-container-android.git"
+      },
+      {
+        "name": "ern-container-publisher-maven@^1.0.0",
+        "url": "file:~/.m2/repository"
+      }
+    ]
+  }
+}

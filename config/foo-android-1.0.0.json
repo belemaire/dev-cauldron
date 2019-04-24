@@ -1,0 +1,10 @@
+{
+  "containerGenerator": {
+    "pipeline": [
+      {
+        "name": "ern-container-publisher-dummy",
+        "url": "dummy-url"
+      }
+    ]
+  }
+}

@@ -106,23 +106,7 @@
       "platforms": [
         {
           "name": "android",
-          "versions": [
-            {
-              "name": "1.0.0",
-              "binary": null,
-              "codePush": {},
-              "container": {
-                "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": [],
-                "miniAppsBranches": [],
-                "jsApiImplsBranches": []
-              },
-              "isReleased": false,
-              "nativeDeps": [],
-              "yarnLocks": {}
-            }
-          ]
+          "versions": []
         }
       ]
     },

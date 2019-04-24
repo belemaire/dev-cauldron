@@ -113,13 +113,29 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "git+ssh://git@github.com/electrode-io/MovieDetailsMiniApp.git#976e9e8da9bf5ba0d72e9cf546bf5a939b07bfa0",
+                  "git+ssh://git@github.com/electrode-io/MovieListMiniApp.git#bb34aea329a04138b2590aeb6f6bb4b1a7711013"
+                ],
+                "nativeDeps": [
+                  "react-native-ernmovie-api@0.0.11",
+                  "react-native-ernnavigation-api@0.0.5",
+                  "react-native@0.59.4",
+                  "react-native-electrode-bridge@1.5.17"
+                ],
+                "miniAppsBranches": [
+                  "git+ssh://git@github.com/electrode-io/MovieDetailsMiniApp.git#master",
+                  "git+ssh://git@github.com/electrode-io/MovieListMiniApp.git#master"
+                ],
+                "ernVersion": "1000.0.0"
               },
               "detachContainerVersionFromRoot": true,
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "06aee3a4-cc39-47e9-8438-a6176b8c29b5"
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }

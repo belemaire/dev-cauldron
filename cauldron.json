@@ -2,6 +2,29 @@
   "minErnVersion": "0.10.0",
   "nativeApps": [
     {
+      "name": "bar",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "benoit",
       "platforms": [
         {

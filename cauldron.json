@@ -116,6 +116,7 @@
                 "miniApps": [],
                 "nativeDeps": []
               },
+              "detachContainerVersionFromRoot": true,
               "isReleased": false,
               "nativeDeps": [],
               "yarnLocks": {}

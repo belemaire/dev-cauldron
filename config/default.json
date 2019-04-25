@@ -4,5 +4,13 @@
       "url": "https://github.com/belemaire/new-manifest.git",
       "type": "partial"
     }
+  },
+  "containerGenerator": {
+    "pipeline": [
+      {
+         "name":"ern-container-publisher-dummy",
+         "url":"dummy-url"
+      }
+    ]
   }
 }

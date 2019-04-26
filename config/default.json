@@ -6,6 +6,7 @@
     }
   },
   "containerGenerator": {
+    "bypassYarnLock": true,
     "pipeline": [
       {
          "name":"ern-container-publisher-dummy",

@@ -137,8 +137,8 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [
-                  "git+ssh://git@github.com/electrode-io/MovieDetailsMiniApp.git#123456",
-                  "git+ssh://git@github.com/electrode-io/MovieListMiniApp.git#123456"
+                  "git+ssh://git@github.com/electrode-io/MovieDetailsMiniApp.git#976e9e8da9bf5ba0d72e9cf546bf5a939b07bfa0",
+                  "git+ssh://git@github.com/electrode-io/MovieListMiniApp.git#bb34aea329a04138b2590aeb6f6bb4b1a7711013"
                 ],
                 "nativeDeps": [
                   "react-native-ernmovie-api@0.0.11",

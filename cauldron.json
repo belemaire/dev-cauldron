@@ -137,8 +137,8 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [
-                  "git+ssh://git@github.com/electrode-io/MovieDetailsMiniApp.git#RELEASEA",
-                  "git+ssh://git@github.com/electrode-io/MovieListMiniApp.git#RELEASEA"
+                  "git+ssh://git@github.com/electrode-io/MovieDetailsMiniApp.git#123456",
+                  "git+ssh://git@github.com/electrode-io/MovieListMiniApp.git#123456"
                 ],
                 "nativeDeps": [
                   "react-native-ernmovie-api@0.0.11",
@@ -146,7 +146,10 @@
                   "react-native@0.59.4",
                   "react-native-electrode-bridge@1.5.17"
                 ],
-                "miniAppsBranches": [],
+                "miniAppsBranches": [
+                  "git+ssh://git@github.com/electrode-io/MovieDetailsMiniApp.git#master",
+                  "git+ssh://git@github.com/electrode-io/MovieListMiniApp.git#master"
+                ],
                 "ernVersion": "1000.0.0"
               },
               "detachContainerVersionFromRoot": true,

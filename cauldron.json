@@ -177,8 +177,8 @@
                   "react-native-electrode-bridge@1.5.17"
                 ],
                 "miniAppsBranches": [
-                  "git+ssh://git@github.com/electrode-io/MovieDetailsMiniApp.git#master",
-                  "git+ssh://git@github.com/electrode-io/MovieListMiniApp.git#master"
+                  "git+ssh://git@github.com/electrode-io/MovieDetailsMiniApp.git#testupgrade",
+                  "git+ssh://git@github.com/electrode-io/MovieListMiniApp.git#testupgrade"
                 ],
                 "ernVersion": "1000.0.0"
               },

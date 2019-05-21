@@ -475,31 +475,6 @@
       ]
     },
     {
-      "name": "testnativeapp",
-      "platforms": [
-        {
-          "name": "android",
-          "versions": [
-            {
-              "name": "1.0.0",
-              "isReleased": false,
-              "binary": null,
-              "yarnLocks": {},
-              "nativeDeps": [],
-              "container": {
-                "miniApps": [],
-                "nativeDeps": [],
-                "jsApiImpls": [],
-                "miniAppsBranches": [],
-                "jsApiImplsBranches": []
-              },
-              "codePush": {}
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "testsort",
       "platforms": [
         {

@@ -331,7 +331,9 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
+                "miniApps": [
+                  "movielistminiapp@0.0.10"
+                ],
                 "nativeDeps": [
                   "react-native-code-push@5.2.1",
                   "react-native-ernmovie-api@0.0.9",

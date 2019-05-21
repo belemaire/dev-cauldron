@@ -345,7 +345,9 @@
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "736a5892-50cc-4f6d-a1fe-07cff67c6424"
+              }
             }
           ],
           "containerVersion": "1.0.9"

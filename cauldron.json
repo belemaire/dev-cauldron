@@ -324,32 +324,6 @@
                 "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
               },
               "containerVersion": "1.0.9"
-            },
-            {
-              "name": "4.0.0",
-              "binary": null,
-              "codePush": {},
-              "container": {
-                "jsApiImpls": [],
-                "miniApps": [
-                  "movielistminiapp@0.0.10",
-                  "moviedetailsminiapp@0.0.9"
-                ],
-                "nativeDeps": [
-                  "react-native-code-push@5.2.1",
-                  "react-native-ernmovie-api@0.0.9",
-                  "react-native-ernnavigation-api@0.0.4",
-                  "react-native@0.52.2",
-                  "react-native-electrode-bridge@1.5.9"
-                ],
-                "ernVersion": "0.21.1"
-              },
-              "isReleased": false,
-              "nativeDeps": [],
-              "yarnLocks": {
-                "container": "736a5892-50cc-4f6d-a1fe-07cff67c6424"
-              },
-              "containerVersion": "1.0.9"
             }
           ],
           "containerVersion": "1.0.9"

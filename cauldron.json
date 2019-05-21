@@ -332,7 +332,8 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [
-                  "movielistminiapp@0.0.10"
+                  "movielistminiapp@0.0.10",
+                  "moviedetailsminiapp@0.0.9"
                 ],
                 "nativeDeps": [
                   "react-native-code-push@5.2.1",

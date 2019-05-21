@@ -333,7 +333,8 @@
                 "jsApiImpls": [],
                 "miniApps": [],
                 "nativeDeps": [
-                  "react-native-code-push@5.2.1"
+                  "react-native-code-push@5.2.1",
+                  "react-native-ernmovie-api@0.0.9"
                 ]
               },
               "isReleased": false,

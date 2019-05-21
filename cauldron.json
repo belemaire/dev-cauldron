@@ -332,7 +332,9 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [],
-                "nativeDeps": []
+                "nativeDeps": [
+                  "react-native-code-push@5.2.1"
+                ]
               },
               "isReleased": false,
               "nativeDeps": [],

@@ -324,6 +324,19 @@
                 "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
               },
               "containerVersion": "1.0.9"
+            },
+            {
+              "name": "4.0.0",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
             }
           ],
           "containerVersion": "1.0.9"

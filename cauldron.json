@@ -341,7 +341,8 @@
                   "react-native-ernnavigation-api@0.0.4",
                   "react-native@0.52.2",
                   "react-native-electrode-bridge@1.5.9"
-                ]
+                ],
+                "ernVersion": "0.21.1"
               },
               "isReleased": false,
               "nativeDeps": [],

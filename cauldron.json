@@ -526,7 +526,12 @@
     },
     {
       "name": "toto",
-      "platforms": []
+      "platforms": [
+        {
+          "name": "ios",
+          "versions": []
+        }
+      ]
     },
     {
       "name": "walmartupdate",

@@ -365,6 +365,10 @@
       ]
     },
     {
+      "name": "test",
+      "platforms": []
+    },
+    {
       "name": "testapp",
       "platforms": [
         {

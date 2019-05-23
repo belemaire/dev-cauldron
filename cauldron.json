@@ -525,6 +525,10 @@
       ]
     },
     {
+      "name": "toto",
+      "platforms": []
+    },
+    {
       "name": "walmartupdate",
       "platforms": [
         {

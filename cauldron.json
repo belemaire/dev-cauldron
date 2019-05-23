@@ -50,10 +50,6 @@
       ]
     },
     {
-      "name": "bibi",
-      "platforms": []
-    },
-    {
       "name": "branchtest",
       "platforms": [
         {

@@ -7,7 +7,8 @@
       },
       {
         "name": "ern-container-publisher-maven@^1.0.0",
-        "url": "file:~/.m2/repository"
+        "url": "file:~/.m2/repository",
+        "disabled": false
       }
     ]
   }
